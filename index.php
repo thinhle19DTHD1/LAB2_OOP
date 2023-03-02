@@ -17,24 +17,24 @@
         echo "UserID: ".$quocthinh->GetUserID()."<br/>";
         echo "UserName: ".$quocthinh->GetUserName()."<br/>";
         //add more
-        $quocthinhmore = new user("Nguyen Van A ", "anguyenvan@gmail.com");
+        $quocthinhmore = new user("Nguyen Van CU ", "anguyenvan@gmail.com");
         echo "<h2>---More user--</h2>";
         echo "UserID: ".$quocthinhmore->GetUserID()."<br/>";
         echo "UserName: ".$quocthinhmore->GetuserName()."<br/>"."<br/>";
 
         include("employeeclass.php");
-        $person_a = new Person("Nguyen Van B",1234);
+        $person_a = new Person("Le Van Viet",1234);
         echo "<h2>More OPP PHP</h2>";
         echo "PersonName: ".$person_a->Getname()."</br>";
         echo "PersionID: ".$person_a->GetNationalID()."</br>";
 
         echo "<h2>Employee</h2>";
-        $employe_a = new Employee("Nguyen Van C",5678,"Security");
+        $employe_a = new Employee("Nguyen Van Linh",5678,"Security");
         echo "Employee ID: ".$employe_a->GetEmployeeID()."</br>";
         echo "Employee Name: ".$employe_a->Getname()."</br>";
         echo "Employee Department: ".$employe_a->GetDepartment()."</br>";
         echo "<h2>More Employee</h2>";
-        $employe_b = new Employee("Nguyen Van D",112233,"Offical");
+        $employe_b = new Employee("Mai Chi Tho",112233,"Offical");
         echo "Employee ID: ".$employe_b->GetEmployeeID()."</br>";
         echo "Employee Name: ".$employe_b->Getname()."</br>";
         echo "Employee Department: ".$employe_b->GetDepartment()."</br>";
